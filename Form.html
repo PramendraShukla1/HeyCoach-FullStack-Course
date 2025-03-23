@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h2>Student Registration Form</h2>
+      <form action="" onsubmit="">
+        <table border="1" cellpadding="10">
+          <!-- Full name -->
+          <tr>
+            <td>
+              <label for="name">Full Name</label>
+            </td>
+            <td>
+              <input type="text" id="name" name="name" required />
+            </td>
+          </tr>
+          <!-- Email -->
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td>
+              <input
+                type="email"
+                class="emailInput"
+                id="email"
+                name="email"
+                required
+              />
+            </td>
+          </tr>
+          <!-- Password -->
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" id="password" name="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="grade">Select Grade:</label></td>
+            <td>
+              <select name="grade" id="grade">
+                <optgroup label="Primary">
+                  <option value="1">Grade 1</option>
+                  <option value="2">Grade 2</option>
+                </optgroup>
+                <optgroup label="Secondary">
+                  <option value="9">Grade 9</option>
+                  <option value="10">Grade 10</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <!-- DataList -->
+          <tr>
+            <td><label for="subject">Favorite Subject:</label></td>
+            <td>
+              <input list="subjects" id="subject" name="subject" />
+              <datalist id="subjects">
+                <option value="Math"></option>
+                <option value="Science"></option>
+                <option value="History"></option>
+                <option value="Computer Science"></option>
+              </datalist>
+            </td>
+          </tr>
+          <!-- TextArea -->
+          <tr>
+            <td><label for="bio">Short Bio:</label></td>
+            <td>
+              <textarea name="bio" id="bio" rows="4" cols="30"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <legend>Preferences</legend>
+              <label for="newsletter">Subscribe to Newsletter:</label>
+              <input type="checkbox" id="newsletter" name="newsletter" />
+              <br /><br />
+              <label for="">Gender</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="age">Your Age:</label></td>
+            <td>
+              <input type="number" id="age" name="age" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="color">Pick Color</label></td>
+            <td>
+              <input type="color" id="color" name="color" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="date">Pick Date</label></td>
+            <td>
+              <input type="date" id="date" name="date" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <button type="submit">Register</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* Universal Style */
+/* * {
+  margin: 30px;
+} */
+
+/* Element Selector */
+/* h1 {
+  color: red;
+}
+p {
+  color: blue;
+} */
+
+/* * {
+  margin: 10px;
+  padding: 10px;
+} */
+
+/* Group Selector */
+/* h1,
+p {
+  color: red;
+  font-weight: bold;
+  size: 40px;
+} */
+
+/* Class Selector */
+/* .onlyDesign {
+  color: red;
+} */
+
+/* ID Selector */
+/* #idTargeted {
+  color: orange;
+} */
+
+/* Descendent Selector */
+/* div h1 {
+  color: red;
+} */
+
+/* .one {
+  color: red;
+} */
+
+/* Child Selector */
+/* div > p {
+  color: red;
+  font-weight: bolder;
+} */
+
+/* General Sibling Selector */
+/* h2 ~ p {
+  color: red;
+} */
+
+/* Adjacent Selector */
+/* h2 + p {
+  color: red;
+} */
+
+/* h1 + span {
+  color: red;
+} */

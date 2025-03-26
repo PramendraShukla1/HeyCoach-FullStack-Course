@@ -1,0 +1,11 @@
+.text-styling-tag {
+  color: black;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  text-indent: 0px;
+  text-align: left;
+  /* text-decoration: underline overline blue; */
+  text-transform: lowercase;
+  /* text-shadow: 10px 10px 5px red; */
+  line-height: 10;
+}

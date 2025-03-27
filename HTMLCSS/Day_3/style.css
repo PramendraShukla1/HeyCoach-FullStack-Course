@@ -1,0 +1,32 @@
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+
+  /* Border Properties */
+  border-width: 5px;
+  border-style: solid;
+  border-color: navy;
+  border-radius: 10px;
+
+  /* Padding Properties (Space inside the border)*/
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+
+  /* Margin Properties (Space Outside the border) */
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: navy;
+  box-sizing: content-box;
+}

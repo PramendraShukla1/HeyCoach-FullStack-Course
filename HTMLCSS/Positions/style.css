@@ -1,0 +1,48 @@
+body {
+  margin: 20px;
+}
+.container {
+  position: relative;
+  width: 80%;
+  height: 400px;
+  border: 2px solid black;
+  margin: auto;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+.static {
+  background-color: red;
+  position: static;
+  top: 50px;
+  bottom: 50px;
+}
+.relative {
+  background-color: blue;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+.absolute {
+  background-color: green;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.fixed {
+  background-color: purple;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.sticky {
+  background-color: orange;
+  position: sticky;
+  top: 5px;
+}

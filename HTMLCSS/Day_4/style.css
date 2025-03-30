@@ -1,0 +1,70 @@
+* {
+  padding: 10px;
+  margin: 0;
+}
+.styled-table {
+  border: 2px solid black;
+}
+.styled-table th,
+.styled-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.styled-table {
+  border-spacing: 10px;
+}
+.caption-top {
+  caption-side: top;
+}
+.overflow-box {
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+  overflow-x: scroll;
+}
+.opacity-box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  opacity: 0.2;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-wait {
+  cursor: wait;
+}
+.cursor-text {
+  cursor: not-allowed;
+}
+a:hover {
+  color: green;
+  font-size: 20px;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: blue;
+}
+.anchor {
+  color: black;
+}
+.list {
+  list-style: decimal;
+}
+.pseudo-class {
+  color: red;
+}
+.pseudo-class:hover {
+  color: blue;
+}
+.pseudo-element {
+  color: black;
+}
+.pseudo-element::first-line {
+  color: blue;
+}

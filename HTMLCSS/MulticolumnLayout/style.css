@@ -1,0 +1,15 @@
+.multi-column-container {
+  column-count: 3;
+  column-gap: 20px; /*Set Gap between columns */
+  column-rule-style: solid;
+  column-rule-width: 2px;
+  column-rule-color: brown;
+  column-width: 200px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+.multi-column-container p {
+  font-size: 18px;
+  line-height: 1.6;
+}

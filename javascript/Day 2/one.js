@@ -215,7 +215,118 @@ console.log("Hello world");
 
 // console.log(result);
 
-for (let i = 1; i <= 10; i++) {
-  if (i == 4) break;
-  console.log(i);
-}
+// for (let i = 1; i <= 10; i++) {
+//   if (i == 4) break;
+//   console.log(i);
+// }
+
+// Loops in Javascript
+
+// For loop
+
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log(4);
+// console.log(5);
+// console.log(6);
+// console.log(7);
+// console.log(8);
+// console.log(9);
+// console.log(10);
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log("Count: " + i);
+// }
+
+// While Loop
+// let i = 1;
+// while (i <= 10) {
+//   console.log("Count: " + i);
+//   i++;
+// }
+// Do while Loop
+
+// let i = 1;
+// do {
+//   console.log("Counter : " + i);
+//   i++;
+// } while (i < 1);
+
+// const obj = { name: "Pramendra Shukla", age: 24, hobbies: "playing" };
+// for (let key in obj) {
+//   console.log(key, ": ", obj[key]);
+// }
+
+// const school = {
+//   name: "test user 1",
+//   admissionNo: 324,
+//   phone: 1234567890,
+//   city: "Delhi",
+// };
+
+// for (let key in school) {
+//   console.log(key, " : ", school[key]);
+// }
+
+//For of Loop
+// let a = [10, 20, 30, 40, 50];
+// for (let cnt of a) {
+//   console.log("count ", cnt);
+// }
+
+// Objects In Javascript
+
+// 1. Create an object using Literal
+// let obj = {
+//   name: "test user 1",
+//   mobile: 12345678,
+//   city: "Delhi",
+// };
+// console.log(obj);
+
+// 2. Create object Using new Object() Constructor
+// let obj = new Object();
+// obj.name = "test user 1";
+// obj.age = 24;
+// obj.phone = 123456789;
+
+// console.log(obj);
+
+//get value from object
+
+// console.log(obj.name);
+// console.log(obj.phone);
+
+//modify value from object
+
+// obj.age = 100;
+// console.log(obj);
+
+//add value from object
+let obj = new Object();
+obj.name = "test user 1";
+obj.age = 24;
+obj.phone = 123456789;
+obj.city = "Delhi";
+
+let objNew = new Object();
+objNew.country = "India";
+
+//Delete value from object
+// delete obj.city;
+
+//Check if key and value present in object
+// console.log("city" in obj);
+// console.log(obj.hasOwnProperty("age"));
+
+//merge two object
+let obj3 = { ...obj, ...objNew };
+console.log(obj3);
+
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+// let arr3 = arr1 + arr2
+// console.log(first)
+
+console.log(Object.keys(obj3).length);

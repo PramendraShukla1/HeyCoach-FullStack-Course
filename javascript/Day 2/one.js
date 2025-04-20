@@ -321,12 +321,76 @@ objNew.country = "India";
 // console.log(obj.hasOwnProperty("age"));
 
 //merge two object
-let obj3 = { ...obj, ...objNew };
-console.log(obj3);
+// let obj3 = { ...obj, ...objNew };
+// console.log(obj3);
 
 // let arr1 = [1,2,3]
 // let arr2 = [4,5,6]
 // let arr3 = arr1 + arr2
 // console.log(first)
 
-console.log(Object.keys(obj3).length);
+// console.log(Object.keys(obj3).length);
+
+//functions in Javascript
+
+// 1. Function Declaration
+// function greet(name) {
+//   return `Hello ${name}`;
+// }
+// console.log(greet("Pramendra!"));
+
+// 2. Function Expression
+// const greet = function (name) {
+//   return `Hello ${name}`;
+// };
+
+// console.log(greet("Pramendra!"));
+
+// 3. Arrow Function
+// const sum = (a, b) => {
+//   return a + b;
+// };
+// console.log(sum(10, 20));
+
+// 4. Anonymous Function
+// setTimeout(function () {
+//   console.log("Anonymous function!");
+// }, 2000);
+
+// 5. IIFE (Immediately Invoked Function Expression)
+
+// (function () {
+//   console.log("IIFE function!");
+// })();
+
+// (() => {
+//   console.log("IIFE function!");
+// })();
+
+// 6. Constructor Function
+// function Person(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+// const user1 = new Person("John", 25);
+// console.log(user1);
+
+// 7. async function
+
+// async function fetchAPI() {
+//   const res = await fetch(
+//     "https://650df10fa8b42265ec2cd7c0.mockapi.io/newsletter"
+//   );
+//   const data = await res.json();
+//   console.log(data);
+// }
+
+// fetchAPI();
+
+// 8. Recursive Function
+
+// function factorial(n) {
+//   if (n === 1) return 1;
+//   return n * factorial(n - 1);
+// }
+// console.log(factorial(5));
